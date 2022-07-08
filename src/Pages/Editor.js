@@ -7,7 +7,7 @@ import { EditorData } from '../data/dummy';
 const Editor = () => {
   return (
     <div className="m-2 md:md-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
-        <Header category="App" title="Kanban" />
+        <Header category="App" title="Editor" />
         <RichTextEditorComponent>
           <EditorData />
           <Inject services={[HtmlEditor, Toolbar, Image , Link, QuickToolbar]} />
