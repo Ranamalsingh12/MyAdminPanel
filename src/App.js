@@ -64,22 +64,22 @@ const App = () => {
               {themeSettings && (<ThemeSettings />)}
 
               <Routes>
-                {/* dashboard  */}
+                {/* These are for the dashboard  */}
                 <Route path="/" element={(<Ecommerce />)} />
                 <Route path="/ecommerce" element={(<Ecommerce />)} />
 
-                {/* pages  */}
+                {/* These are for the pages  */}
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
 
-                {/* apps  */}
+                {/* These are for the apps  */}
                 <Route path="/kanban" element={<Kanban />} />
                 <Route path="/editor" element={<Editor />} />
                 <Route path="/calendar" element={<Calendar />} />
                 <Route path="/color-picker" element={<ColorPicker />} />
 
-                {/* charts  */}
+                {/* These are for the charts  */}
                 <Route path="/line" element={<Line />} />
                 <Route path="/area" element={<Area />} />
                 <Route path="/bar" element={<Bar />} />
